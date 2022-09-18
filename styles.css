@@ -1,0 +1,429 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* .navbar-collapse {
+    display: flex!important;
+    align-items: center;
+    justify-content: flex-end;
+} */
+
+.navbar-img {
+    height: 50px;
+    width: 150px;
+}
+
+.nav-item a i {
+    color: white;
+}
+
+.section-2 {
+    background-color: #8ec038;
+}
+
+.icons ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 0;
+    padding: 50px;
+}
+
+.icon {
+    display: grid; 
+    padding-bottom: 30px;
+    padding-left: 110px;
+}
+
+.icon i {
+    padding: 20px 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.icons ul li {
+    position: relative;
+}
+
+.icons ul li:nth-child(1):after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100px;
+    background: lightgray;
+    top: 8px;
+    right: 0px;
+}
+
+.icons ul li:nth-child(2):after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100px;
+    background:lightgray;
+    top: 8px;
+    right: 0px;
+}
+
+.icons ul li:nth-child(4):after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100px;
+    background:lightgray;
+    top: 8px;
+    right: 0px;
+}
+
+.icons ul li:nth-child(5):after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100px;
+    background:lightgray;
+    top: 8px;
+    right: 0px;
+}
+
+.icon a {
+    font-weight: 700;
+}
+
+.container.main {
+    max-width: 100%;
+}
+
+.main {
+    display: flex;
+    gap: 50px;
+    background-color: #f3f5ed;
+    padding: 50px;
+}
+
+/* .main-data {} */
+
+.main-heading h3 {
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+.main-heading p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.main-heading span {
+    color: #8ec038;
+}
+
+.main-icon {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.main-icon i {
+    font-size: 30px;
+    color: #8ec038;
+}
+
+.main-icon h3 {
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.img-1 {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.btn button {
+    padding: 15px 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+}
+
+.container.section-4 {
+    max-width: 100%;
+    background-color: honeydew;
+}
+
+.content-top {
+    text-align: center;
+    padding: 30px;
+}
+
+.content-top h6 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #8ec038;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content-top h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    padding: 20px;
+}
+
+.crd h4, p {
+    text-align: center;
+}
+
+.crd {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.crd img {
+    border-radius: 50%;
+    width: 70%;
+    border: 15px solid white;
+    margin-bottom: 20px;
+}
+
+.crd button {
+    padding: 15px 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.container.section-5 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8ec038;
+    max-width: 100%;
+    padding: 120px 50px;
+    
+}
+
+.inner-1 {
+    width: 25%;
+}
+
+.inner-1 h3 {
+    font-weight: 700;
+}
+
+.inner-1 p {
+    font-weight: 200;
+    text-align: left;
+}
+
+.inner-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.inner-2 {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 23%;
+}
+
+.inner-2:hover {
+    padding-top: 25px;
+}
+
+.container.footer {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    padding: 50px 0px;
+    background-color: black;
+    background-image: url("");
+    height: 400px;
+}
+
+.footer-img img {
+    height: 50px;
+    width: 150px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
+
+.footer-img p {
+    color: grey;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    color: #8ec038 ;
+    font-size: 25px;
+}
+
+.footer-heading h3 {
+    font-weight: 800;
+    text-align: center;
+    color: #8ec038;
+    margin-bottom: 20px;
+}
+
+.footer-list ul li {
+    font-weight: 700;
+   text-align: center;
+   color: white;
+   margin-left: -40px;
+}
+
+.para {
+    color: white;
+    text-align: center;
+}
+
+.footer-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-data i {
+    color: #8ec038 ;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.footer-content h6 {
+    color: #8ec038 ;
+}
+
+.footer-content p {
+    color: white;
+}
+
+.fitbook {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.fitbook-img img{
+    width: 450px;
+    /* height: 300px; */
+}
+
+.fitbook-data h3 {
+font-size: 40px ;
+font-weight: 700;
+padding-bottom: 25px;
+}
+
+.fitbook-data p {
+text-align: justify;
+}
+
+.fitbook-para {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 800;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.fitbook-button button  {
+    padding: 15px 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 15   px;
+    font-weight: 900;
+}
+
+.container.testimonial {
+    max-width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.testimonial h6 , .sect-heading h6 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #8ec038;
+    font-family: 'Dancing Script', cursive;
+}
+
+.testimonial h3 , .sect-heading h3 {
+    font-size: 40px;
+    font-weight: 600;
+}   
+
+.testimonial-img {
+    border-radius: 50%;
+}
+
+.testimonial-data {
+    padding: 30px ;
+}
+
+.zoom {
+    transition: transform 1s; 
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(0.5); 
+  }
+
+  .section-8 {
+    max-width: 100%;
+    background-color: whitesmoke;
+    padding: 50px 30px;
+  }
+
+  .sect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .sect-heading {
+      text-align: center;
+  }
+
+  /* .sect-heading h6 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #8ec038;
+    font-family: 'Dancing Script', cursive;
+  } */
+
+  .sect-img {
+    width: 50%;
+  }
+
+  .sm-img {
+    height: 60%;
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .sm-data {
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+  
